@@ -1,0 +1,32 @@
+.matchesContainer {
+    border: 1px solid black;
+    border-top: none;
+    padding-inline: 30px;
+    padding-block: 20px;
+}
+
+.breadcrumbs {
+    font-size: 12px;
+    margin-block-end: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.breadcrumbs > * {
+    margin-inline-end: 5px;
+}
+
+.leaguesBreadcrumb {
+    text-decoration: none;
+    color: blue;
+}
+
+.matchesLabel {
+    font-size: 18px;
+    margin-block-end: 10px;
+}
+
+.matchesTable {
+    font-size: 14px;
+    margin-right: auto;
+}

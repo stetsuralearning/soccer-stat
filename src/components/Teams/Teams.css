@@ -1,0 +1,16 @@
+.teamsContainer {
+    align-content: center;
+    border: 1px solid black;
+    border-top-color: white;
+}
+
+.teamCardsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.pagination {
+    margin-inline-start: 500px;
+    margin-block: 20px;
+}

@@ -1,0 +1,51 @@
+.matchContainer {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.notFirstMatch {
+    border-top: none;
+}
+
+.teamNames {
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+}
+
+.matchTime,
+.matchStatus {
+    width: 10%;
+}
+
+.matchDate {
+    width: 15%;
+}
+
+.score {
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    margin-inline-start: auto;
+}
+
+.extraTimeScore {
+    color: grey;
+    margin-inline-start: 5px;
+}
+
+.homeTeamName,
+.awayTeamName {
+    width: 20%;
+}
+
+.homeTeamName {
+    text-align: right;
+}
+
+.delimiter {
+    width: 5%;
+    text-align: center;
+}

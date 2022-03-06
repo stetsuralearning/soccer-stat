@@ -1,0 +1,11 @@
+.leagueCard {
+    border: 1px solid black;
+    width: 220px;
+    padding-block: 20px;
+    margin-inline: 40px;
+    margin-block: 20px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: unset;
+    color: black;
+}
